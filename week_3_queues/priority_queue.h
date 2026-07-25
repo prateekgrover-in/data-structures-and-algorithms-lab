@@ -1,6 +1,6 @@
   /*multiq.h*/
   
-#include "que.h"
+#include "queue.h"
 #define maxPriority 10
 
 typedef struct{

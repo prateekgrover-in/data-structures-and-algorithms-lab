@@ -1,4 +1,4 @@
-#include "cycle.h"
+#include "cycle_detection.h"
 
 int detectCycle(struct linkedList * head) {
     struct node * slow_p = head -> first;

@@ -1,6 +1,6 @@
 /* driver_que.c */
 
-#include "que.h"
+#include "queue.h"
 
 int main() {
 

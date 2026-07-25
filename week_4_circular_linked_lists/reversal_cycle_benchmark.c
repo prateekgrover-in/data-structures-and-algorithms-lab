@@ -1,5 +1,5 @@
   
-#include "cycle.h"
+#include "cycle_detection.h"
 #include <sys/time.h>
 
 long long heapspace = 0;
@@ -52,7 +52,7 @@ int main(int argc, char *argv[]) {
     // scanf("%d", &n);
     FILE * fp;
     int i;
-    fp = fopen ("result_linkreversal.csv","w");
+    fp = fopen ("reversal_benchmark_results.csv","w");
     for (int n = 1000; n < 100000; n = n + 1000){
         t = clock(); 
         

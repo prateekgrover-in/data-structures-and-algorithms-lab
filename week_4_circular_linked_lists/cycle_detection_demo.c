@@ -1,5 +1,5 @@
   
-#include "cycle.h"
+#include "cycle_detection.h"
 #include <sys/time.h>
 
 long long heapspace = 0;

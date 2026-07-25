@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
-#include "que.h"
+#include "queue.h"
 
 Queue newQ(){
     struct queue new_q;

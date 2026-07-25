@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
-#include "multiq.h"
+#include "priority_queue.h"
 
 MultiQ createMQ(int num){
     struct queue * new_q_arr = malloc(sizeof(Queue) * num);
